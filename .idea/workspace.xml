@@ -2,17 +2,25 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Lab03" targetName="Lab03" />
+      <config projectName="Lab03" targetName="Lab03ex02" />
+      <config projectName="Lab03" targetName="Lab03ex01" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf3ccba4-20f8-40ce-97d6-76de324a62d6" name="Changes" comment="Lab03 ex01 working (cleaned up the code a bit)">
+      <change afterPath="$PROJECT_DIR$/ex02/Areas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/Perimeters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/RectangleData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/ex02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/ex02Fn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/ex02Fn.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +65,18 @@
       <recent name="C:\Users\skyle\CLionProjects\Lab03\ex01" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Lab03" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\skyle\CLionProjects\Lab03\ex01\text.txt C:\Users\skyle\CLionProjects\Lab03\ex01\list.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab03" TARGET_NAME="Lab03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab03" RUN_TARGET_NAME="Lab03">
+  <component name="RunManager" selected="CMake Application.Lab03ex02">
+    <configuration name="Lab03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab03" TARGET_NAME="Lab03" RUN_TARGET_PROJECT_NAME="Lab03" RUN_TARGET_NAME="Lab03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab03ex01" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\skyle\CLionProjects\Lab03\ex01\text.txt C:\Users\skyle\CLionProjects\Lab03\ex01\list.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab03" TARGET_NAME="Lab03ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab03" RUN_TARGET_NAME="Lab03ex01">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab03ex02" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="C:\Users\skyle\CLionProjects\Lab03\ex02\RectangleData.txt C:\Users\skyle\CLionProjects\Lab03\ex02\Areas.txt C:\Users\skyle\CLionProjects\Lab03\ex02\Perimeters.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab03" TARGET_NAME="Lab03ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab03" RUN_TARGET_NAME="Lab03ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -68,6 +86,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Lab03" />
+      <item itemvalue="CMake Application.Lab03ex01" />
+      <item itemvalue="CMake Application.Lab03ex02" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +109,8 @@
       <workItem from="1635366833739" duration="9841000" />
       <workItem from="1635500272059" duration="396000" />
       <workItem from="1635787671887" duration="7005000" />
-      <workItem from="1636104530596" duration="14630000" />
+      <workItem from="1636104530596" duration="15153000" />
+      <workItem from="1636207435206" duration="14784000" />
     </task>
     <task id="LOCAL-00001" summary="Lab03 ex01 working">
       <created>1636201731178</created>
@@ -97,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636201977907</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lab03 ex01 working (cleaned up the code a bit)">
+      <created>1636206849794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636206849794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +163,11 @@
           <url>file://$PROJECT_DIR$/ex01/ex01.c</url>
           <line>108</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ex02/ex02.c</url>
+          <line>71</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
