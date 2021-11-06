@@ -11,11 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3ccba4-20f8-40ce-97d6-76de324a62d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="cf3ccba4-20f8-40ce-97d6-76de324a62d6" name="Changes" comment="Lab03 ex01 working (cleaned up the code a bit)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/ex01.c" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/ex01.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +81,23 @@
       <workItem from="1635366833739" duration="9841000" />
       <workItem from="1635500272059" duration="396000" />
       <workItem from="1635787671887" duration="7005000" />
-      <workItem from="1636104530596" duration="14111000" />
+      <workItem from="1636104530596" duration="14630000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab03 ex01 working">
+      <created>1636201731178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636201731179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lab03 ex01 working (cleaned up the code a bit)">
+      <created>1636201977907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636201977907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,12 +115,17 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab03 ex01 working" />
+    <MESSAGE value="Lab03 ex01 working (cleaned up the code a bit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab03 ex01 working (cleaned up the code a bit)" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/ex01/ex01.c</url>
-          <line>102</line>
+          <line>108</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
