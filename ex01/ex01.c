@@ -10,8 +10,8 @@
 #define ERR_INVALID_ARG -1
 #define ERR_MALLOC_FAIL -2
 
-int myStrcmp(char * string1, char * string2);
-void addNewline(char ** string, char ** string_n, char ** argv);
+//int myStrcmp(char * string1, char * string2);
+void addNewline(char ** string, char ** string_n/*, char ** argv*/);
 void freeAllMem(char ** ptr1, char ** ptr2, char *** ptr3, int ptr3_elements);
 
 
@@ -58,6 +58,12 @@ int main(int argc, char** argv) {
 
     list = (char** ) realloc(list, wordsStored * sizeof(char*));
 
+    if(list == NULL){
+        fprintf(stderr, "%s: Error allocating memory", argv[0]);
+        freeAllMem(&token, &token_n, &list, wordsStored);
+        return  ERR_MALLOC_FAIL;
+    }
+
     // alloc memory for found vector and set entries to 0
 
     found = malloc(wordsStored * sizeof(int));
@@ -94,7 +100,7 @@ int main(int argc, char** argv) {
     while(fgets(linebufferL, MAX_LINE_SIZE, textFile)){
 
         token = strtok(linebufferL, " ");
-        addNewline(&token, &token_n, argv);
+        addNewline(&token, &token_n/*, argv*/);
         if(token_n == NULL){
             freeAllMem(&token, &token_n, &list, wordsStored);
             return ERR_MALLOC_FAIL;
@@ -110,7 +116,7 @@ int main(int argc, char** argv) {
                 }
             }
             token = strtok(NULL, " ");
-            addNewline(&token, &token_n, argv);
+            addNewline(&token, &token_n/*, argv*/);
             if(token_n == NULL){
                 freeAllMem(&token, &token_n, &list, wordsStored);
                 return ERR_MALLOC_FAIL;
@@ -129,7 +135,7 @@ int main(int argc, char** argv) {
     return 0;
 }
 
-
+/*
 int myStrcmp(char* string1, char* string2){ // case insensitive strncmp returns 0 if equal, >0 if string1>string2, <0 otherwise
     int result = 0;
 
@@ -146,9 +152,9 @@ int myStrcmp(char* string1, char* string2){ // case insensitive strncmp returns 
     }
 
     return result;
-}
+}*/
 
-void addNewline(char ** string, char ** string_n, char ** argv){
+void addNewline(char ** string, char ** string_n/*, char ** argv*/){
     /* alloc new memory to string_n only if needed
         *string_n = (char* ) realloc(*string_n, strlen(*string) * sizeof(char));
         if(*string_n == NULL){
