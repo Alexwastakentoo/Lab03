@@ -23,9 +23,9 @@ typedef rectangle_t;
 
 
 void freeMyMem(rectangle_t**);
-void areaBubbleSort(rectangle_t** array, size_t size); // bubble sort starting from a completely non-ordered array of floats
-void perBubbleSort(rectangle_t** array, size_t size);
-void apCalc(rectangle_t** rectArray_t, size_t rectNum); // compute areas of rectangles defined by two opposite vertexes
+void areaBubbleSort(rectangle_t* array, size_t size); // bubble sort for the area
+void perBubbleSort(rectangle_t* array, size_t size);  // bubble sort for the perimeter
+void apCalc(rectangle_t* rectArray_t, size_t rectNum); // compute areas of rectangles defined by two opposite vertexes
 
 
 #endif //LAB03_EX02FN_H

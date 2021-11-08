@@ -69,16 +69,43 @@ int main(int argc, char** argv){
         fflush(stdout);
     }
 
-    apCalc(&rect_vector, rectCount);
+    apCalc(rect_vector, rectCount);
 
 
-    areaBubbleSort(&rect_vector, rectCount);
-    perBubbleSort(&rect_vector, rectCount);
+    printf("\n");
+    areaBubbleSort(rect_vector, rectCount);
 
-    for(int i = 0; i < rectCount; i++){
-        printf("\n|| area[%d]: %f |  perimeter[%d]: %f ||", i, rect_vector[i].area, i, rect_vector[i].perimeter);
-        fflush(stdout);
+    FILE * outputAreas = fopen(argv[2], "w");
+
+    for(int i = rectCount-1; i >= 0; i--){
+        fprintf(outputAreas, "%s %f\n", rect_vector[i].name, rect_vector[i].area);
     }
+
+    fclose(outputAreas);
+
+    /*for(int i = 0; i < rectCount; i++){
+        printf("\n|| name[%d]: %s || area[%d]: %f |  perimeter[%d]: %f ||", i, rect_vector[i].name, i, rect_vector[i].area, i, rect_vector[i].perimeter);
+        fflush(stdout);
+    }*/
+
+    printf("\n");
+    perBubbleSort(rect_vector, rectCount);
+
+    FILE * outputPer = fopen(argv[3], "w");
+
+    for(int i = rectCount-1; i >= 0; i--){
+        fprintf(outputPer, "%s %f\n", rect_vector[i].name, rect_vector[i].perimeter);
+    }
+
+    fclose(outputPer);
+
+
+    /*for(int i = 0; i < rectCount; i++){
+        printf("\n|| name[%d]: %s || area[%d]: %f |  perimeter[%d]: %f ||", i, rect_vector[i].name, i, rect_vector[i].area, i, rect_vector[i].perimeter);
+        fflush(stdout);
+    }*/
+
+    freeMyMem(&rect_vector);
 
     return 0;
 }

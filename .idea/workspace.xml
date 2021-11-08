@@ -12,15 +12,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3ccba4-20f8-40ce-97d6-76de324a62d6" name="Changes" comment="Lab03 ex01 working (cleaned up the code a bit)">
-      <change afterPath="$PROJECT_DIR$/ex02/Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex02/Perimeters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex02/RectangleData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex02/ex02.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex02/ex02Fn.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex02/ex02Fn.h" afterDir="false" />
+    <list default="true" id="cf3ccba4-20f8-40ce-97d6-76de324a62d6" name="Changes" comment="Lab03 ex02 half baked">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/ex02.c" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/ex02.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/ex02Fn.c" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/ex02Fn.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/ex02Fn.h" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/ex02Fn.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,7 @@
       <workItem from="1635500272059" duration="396000" />
       <workItem from="1635787671887" duration="7005000" />
       <workItem from="1636104530596" duration="15153000" />
-      <workItem from="1636207435206" duration="14784000" />
+      <workItem from="1636207435206" duration="17389000" />
     </task>
     <task id="LOCAL-00001" summary="Lab03 ex01 working">
       <created>1636201731178</created>
@@ -133,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636206849794</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lab03 ex02 half baked">
+      <created>1636225313552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636225313552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab03 ex01 working" />
     <MESSAGE value="Lab03 ex01 working (cleaned up the code a bit)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab03 ex01 working (cleaned up the code a bit)" />
+    <MESSAGE value="Lab03 ex02 half baked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab03 ex02 half baked" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -166,8 +170,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/ex02/ex02.c</url>
-          <line>71</line>
-          <option name="timeStamp" value="15" />
+          <line>85</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
